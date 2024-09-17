@@ -1,8 +1,6 @@
 # zipandbackup.sh
 
-VPS and self hosting backups helper.
-
-Quickly zip given directory from ssh host and download the file locally.
+VPS and self hosting backups helper. Quickly zip given directory from ssh host and download the file locally.
 
 ## Requirements
 
