@@ -12,9 +12,10 @@ It's advised to connect to the host via an ssh key-based authentication.
 
 ## Usage
 
-`zipandbackup.sh [flag]`
-
-`zipandbackup.sh [user@]host remote_dir local_dir backup_filename`
+```
+zipandbackup.sh [flag]
+zipandbackup.sh [user@]host remote_dir local_dir backup_filename
+```
 
 `remote_dir` and `local_dir` must be directories, not files. `backup_filename` can be written with or without the `.zip` extension.
 
@@ -25,6 +26,7 @@ It's advised to connect to the host via an ssh key-based authentication.
 
 ## Examples
 
-`./zipandbackup.sh app.la-map.com /var/lib/docker/volumes/postgres_data ~/Documents lamap-postgres_data-240811`
-
-`./zipandbackup.sh clucien@columbo.app /var/lib/docker/volumes/ /root/backups/ columbo-volumes-240811.zip`
+```
+./zipandbackup.sh app.la-map.com /var/lib/docker/volumes/postgres_data ~/Documents lamap-postgres_data-240811
+./zipandbackup.sh clucien@columbo.app /var/lib/docker/volumes/ /root/backups/ columbo-volumes-240811.zip
+```
